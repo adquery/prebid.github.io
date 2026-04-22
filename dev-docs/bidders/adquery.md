@@ -14,9 +14,10 @@ sidebarType: 1
 media_types: banner, video
 ---
 
-### Bid Params
+## Bid Params
 
 {: .table .table-bordered .table-striped }
+
 | Name          | Scope    | Description                                                                 | Example                                                                  | Type      |
 |---------------|----------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------|
 | `placementId` | required | Placement ID provided by Adquery (must match the type/format in dashboard)  | `d30f79cf7fef47bd7a5611719f936539bec0d2e9`                               | `string`  |
@@ -64,8 +65,8 @@ media_types: banner, video
             playerSize: [[640, 360]],
             mimes: ['video/mp4', 'video/webm'],
             protocols: [2, 3, 5, 6, 7, 8],
-            api: [2],     
-            placement: 1,  
+            api: [2],
+            placement: 1,
             startdelay: 0,
             skip: 1
         }
@@ -110,10 +111,10 @@ media_types: banner, video
 // Anchor / fixed bottom bar
 {
     code: 'anchor-div',
-        mediaTypes: {
+    mediaTypes: {
         banner: {
-        sizes: [[1, 1]]
-            }
+            sizes: [[1, 1]]
+        }
     },
     bids: [{
         bidder: 'adquery',
